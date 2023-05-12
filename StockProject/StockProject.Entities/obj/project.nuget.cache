@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cEwy5S+v4MvNAVjecUeT+IC0PzvPDGHkNG9Mql8fEyx5UEYNlhDd226pMePC0Su6yjvoSHwJKmBZj1eQpAYy9g==",
+  "dgSpecHash": "o0EmjS7OtZ8zMVKDlpu45RKBfxLIyjolrZg2WEFjKmAqQ41Evc3oByyVMpDgqtEMsjA9v9WJ7fLo0izjGX7eUQ==",
   "success": true,
-  "projectFilePath": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\StockProject\\StockProject.Entities\\StockProject.Entities.csproj",
+  "projectFilePath": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.Entities\\StockProject.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

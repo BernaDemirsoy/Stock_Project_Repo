@@ -1,0 +1,12 @@
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\bin\Debug\net6.0\StockProject.Entities.deps.json
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\bin\Debug\net6.0\StockProject.Entities.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\bin\Debug\net6.0\StockProject.Entities.pdb
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.csproj.AssemblyReference.cache
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.AssemblyInfoInputs.cache
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.AssemblyInfo.cs
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.csproj.CoreCompileInputs.cache
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\refint\StockProject.Entities.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\StockProject.Entities.pdb
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.Entities\obj\Debug\net6.0\ref\StockProject.Entities.dll
