@@ -17,6 +17,28 @@ namespace StockProject.API.Controllers
         {
             this.service = service;
         }
+        [HttpGet("{email},{password}")]
+        public IActionResult Login(string email,string password)
+        {
+            if (service.Any(x => x.Email == email))
+            {
+
+                User loggeduser = service.GetByDefault(x => x.Email == email && x.Password == password);
+                if (loggeduser != null)
+                    return Ok(loggeduser);
+                else
+                    return BadRequest("Parola Hatalı!");
+
+                return Ok(loggeduser);
+            }
+            return NotFound("Kullanıcı bulunamadı");
+
+            //User loggeduser = service.GetByDefault(x => x.Email == email && x.Password == password);
+            //if (loggeduser != null)
+            //    return Ok(loggeduser);
+            //return NotFound();
+        }
+
         //GET: api/User/GetAllUsers
         [HttpGet]
         public IActionResult GetAllUsers()
@@ -49,24 +71,24 @@ namespace StockProject.API.Controllers
         [HttpPost]
 
         //POST: api/User/CreateUser
-        public IActionResult CreateUser([FromQuery] User supplier)
+        public IActionResult CreateUser([FromQuery] User user)
         {
-            service.Add(supplier);
+            service.Add(user);
 
-            return CreatedAtAction("GetUserById", new { id = supplier.Id }, supplier);
+            return CreatedAtAction("GetUserById", new { id = user.Id }, user);
         }
 
         //PUT: api/User/UpdateUser
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(int id, [FromBody] User supplier)
+        public IActionResult UpdateUser(int id, [FromBody] User user)
         {
-            if (id != supplier.Id)
+            if (id != user.Id)
                 return BadRequest("Idler eşleşmiyor.Kontrol edip tekrar deneyiniz!");
 
             try
             {
-                service.Update(supplier);
-                return Ok(supplier);
+                service.Update(user);
+                return Ok(user);
             }
             catch (DbUpdateConcurrencyException)
             {
