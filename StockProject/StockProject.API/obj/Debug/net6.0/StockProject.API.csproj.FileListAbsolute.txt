@@ -72,3 +72,7 @@ D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\StockProject.Service.dll
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\StockProject.Service.pdb
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

@@ -9,21 +9,21 @@ namespace StockProject.API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class CategoryController : ControllerBase
+    public class UserController : ControllerBase
     {
-        private readonly IGenericService<Category> service;
+        private readonly IGenericService<User> service;
 
-        public CategoryController(IGenericService<Category> service)
+        public UserController(IGenericService<User> service)
         {
             this.service = service;
         }
-        //GET: api/Category/GetAllCategories
+        //GET: api/User/GetAllUsers
         [HttpGet]
-        public IActionResult GetAllCategories()
+        public IActionResult GetAllUsers()
         {
             return Ok(service.GetAll());
         }
-        //GET: api/Category/GetAllActive
+        //GET: api/User/GetAllActive
         [HttpGet]
 
         public IActionResult GetAllActive()
@@ -31,49 +31,49 @@ namespace StockProject.API.Controllers
             return Ok(service.GetActive());
         }
 
-        //GET: api/Category/GetCategoryById
+        //GET: api/User/GetUserById
         [HttpGet("{id}")]
 
-        public IActionResult GetCategoryById(int id)
+        public IActionResult GetUserById(int id)
         {
             return Ok(service.GetById(id));
         }
 
-        //GET: api/Category/GetCategoryByName
+        //GET: api/User/GetUserByName
         [HttpGet("{name}")]
 
-        public IActionResult GetCategoryByName(string name)
+        public IActionResult GetUserByName(string name)
         {
-            return Ok(service.GetDefault(x=>x.CategoryName.ToLower().Contains(name.ToLower())==true).ToList());
+            return Ok(service.GetDefault(x => x.FirstName.ToLower().Contains(name.ToLower()) == true).ToList());
         }
         [HttpPost]
 
-        //POST: api/Category/CreateCategory
-        public IActionResult CreateCategory([FromQuery] Category category)
+        //POST: api/User/CreateUser
+        public IActionResult CreateUser([FromQuery] User supplier)
         {
-            service.Add(category);
+            service.Add(supplier);
 
-            return CreatedAtAction("GetCategoryById", new { id = category.Id },category);
+            return CreatedAtAction("GetUserById", new { id = supplier.Id }, supplier);
         }
 
-        //PUT: api/Category/UpdateCategory
+        //PUT: api/User/UpdateUser
         [HttpPut("{id}")]
-        public IActionResult UpdateCategory(int id, [FromBody] Category category)
+        public IActionResult UpdateUser(int id, [FromBody] User supplier)
         {
-            if (id != category.Id)
+            if (id != supplier.Id)
                 return BadRequest("Idler eşleşmiyor.Kontrol edip tekrar deneyiniz!");
 
             try
             {
-                service.Update(category);
-                return Ok(category);
+                service.Update(supplier);
+                return Ok(supplier);
             }
             catch (DbUpdateConcurrencyException)
             {
 
                 if (!service.Any(x => x.Id == id))
                 {
-                    return NotFound("Böyle bir kategori bulunmamaktadır!");
+                    return NotFound("Böyle bir supplier bulunmamaktadır!");
                 }
             }
             return NoContent();
@@ -81,7 +81,7 @@ namespace StockProject.API.Controllers
             #region MyRegion
             //else if(!service.Any(x => x.Id == id))
             //{
-            //    return NotFound("Böyle bir kategori bulunmamaktadır!");
+            //    return NotFound("Böyle bir supplier bulunmamaktadır!");
             //}
             //else
             //{
@@ -93,17 +93,16 @@ namespace StockProject.API.Controllers
 
 
         }
-
-        //Delete: api/Category/DeleteCategory
+        //Delete: api/User/DeleteUser
         [HttpDelete("{id}")]
-        public IActionResult DeleteCategory(int id)
+        public IActionResult DeleteUser(int id)
         {
-            var category = service.GetById(id);
-            if (category == null)
+            var supplier = service.GetById(id);
+            if (supplier == null)
                 return NotFound();
             try
             {
-                service.Remove(category);
+                service.Remove(supplier);
                 return Ok("Kategori silindi");
             }
             catch (DeletedRowInaccessibleException)
@@ -115,16 +114,15 @@ namespace StockProject.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult AvtivateCategory(int id)
+        public IActionResult AvtivateUser(int id)
         {
-            var category = service.GetById(id);
-            if (category == null)
+            var supplier = service.GetById(id);
+            if (supplier == null)
                 return NotFound();
-            //Eğer aktif ise aktifleştirme eklenebilir.
             try
             {
                 service.Activate(id);
-                return Ok(category);
+                return Ok(supplier);
             }
             catch (DeletedRowInaccessibleException)
             {
