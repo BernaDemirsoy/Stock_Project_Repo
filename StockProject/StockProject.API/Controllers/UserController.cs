@@ -17,7 +17,7 @@ namespace StockProject.API.Controllers
         {
             this.service = service;
         }
-        [HttpGet("{email},{password}")]
+        [HttpGet]
         public IActionResult Login(string email,string password)
         {
             if (service.Any(x => x.Email == email))
@@ -26,6 +26,7 @@ namespace StockProject.API.Controllers
                 User loggeduser = service.GetByDefault(x => x.Email == email && x.Password == password);
                 if (loggeduser != null)
                     return Ok(loggeduser);
+               
                 else
                     return BadRequest("Parola Hatalı!");
 

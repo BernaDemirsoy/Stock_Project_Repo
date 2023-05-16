@@ -3123,6 +3123,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "StockProject.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StockProject.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StockProject.Entities.dll": {}
+        }
       }
     }
   },
@@ -9048,11 +9058,17 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "StockProject.Entities/1.0.0": {
+      "type": "project",
+      "path": "../StockProject.Entities/StockProject.Entities.csproj",
+      "msbuildProject": "../StockProject.Entities/StockProject.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
+      "StockProject.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9087,7 +9103,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.Entities\\StockProject.Entities.csproj": {
+              "projectPath": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.Entities\\StockProject.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -245,3 +245,8 @@ D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\obj\Debug\net6.0\StockProject.UI.csproj.CopyComplete
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\obj\Debug\net6.0\scopedcss\Areas\Admin\Shared\_Layout.cshtml.rz.scp.css
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\obj\Debug\net6.0\scopedcss\Areas\Supplier\Shared\_Layout.cshtml.rz.scp.css
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\obj\Debug\net6.0\scopedcss\Areas\User\Shared\_Layout.cshtml.rz.scp.css
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\bin\Debug\net6.0\StockProject.Entities.dll
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\bin\Debug\net6.0\StockProject.Entities.pdb

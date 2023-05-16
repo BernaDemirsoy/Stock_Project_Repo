@@ -5,12 +5,260 @@
       "PackagePath": "staticwebassets\\StockProject.UI.bundle.scp.css"
     },
     {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\cs-skin-elastic.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\cs-skin-elastic.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\chosen\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\chosen\\chosen-sprite.png"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\chosen\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\chosen\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\chosen\\chosen.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\chosen\\chosen.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\chosen\\chosen.min.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\chosen\\chosen.min.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\datatable\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\datatable\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\datatable\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\datatable\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\datatable\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\datatable\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\lib\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\lib\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\General\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\General\\css\\style.css.map"
+    },
+    {
       "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\fonts\\icomoon\\index.html",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\index.html"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\.gitignore",
+      "PackagePath": "staticwebassets\\images\\.gitignore"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\admin.jpg",
+      "PackagePath": "staticwebassets\\images\\admin.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\6.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\64-1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\64-1.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\avatar\\64-2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\64-2.jpg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\logo.psd",
+      "PackagePath": "staticwebassets\\images\\logo.psd"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\chartjs-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\datatables-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\datatables-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\flot-chart-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\flot-chart-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\fullcalendar-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\gmap-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\gmap-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\peitychart-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\peitychart-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\vector-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\vector-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\init\\weather-init.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\init\\weather-init.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\chosen\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\chosen\\chosen.jquery.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\chosen\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\chosen\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\chosen\\chosen.proto.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\chosen\\chosen.proto.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\chosen\\chosen.proto.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\chosen\\chosen.proto.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\buttons.flash.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\buttons.html5.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\buttons.print.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\datatables.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\jquery-1.12.4.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\jquery-1.12.4.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\jszip.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\pdfmake.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\data-table\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\data-table\\vfs_fonts.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\gmap\\gmapApi.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\gmap\\gmapApi.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\gmap\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\gmap\\gmaps.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\lib\\gmap\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\lib\\gmap\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\main.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\General\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\General\\js\\widgets.js"
     },
     {
       "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\js\\site.js",
@@ -243,6 +491,18 @@
     {
       "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\scss\\style.css",
+      "PackagePath": "staticwebassets\\scss\\style.css"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\scss\\style.css.map",
+      "PackagePath": "staticwebassets\\scss\\style.css.map"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.StockProject.UI.Microsoft.AspNetCore.StaticWebAssets.props",

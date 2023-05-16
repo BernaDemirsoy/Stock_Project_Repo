@@ -16,24 +16,60 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Admin/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Admin/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Supplier/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcGxpZXJcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Admin/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Admin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Supplier/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcGxpZXJcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Supplier/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcGxpZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Supplier/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcGxpZXJcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Supplier/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcGxpZXJcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/User/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/User/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/User/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/User/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Views/Home/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Views/Home/Privacy.cshtml]
@@ -63,6 +99,10 @@ build_metadata.AdditionalFiles.CssScope = b-11wb0vv03c
 [D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/Supplier/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwcGxpZXJcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vevf89k1p7
+
+[D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Areas/User/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-sxvdf9avd3
 
 [D:/C\#/BilgeAdam/Kartal_Hoca_Tekrar/Stock_Project_Repo/StockProject/StockProject.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
