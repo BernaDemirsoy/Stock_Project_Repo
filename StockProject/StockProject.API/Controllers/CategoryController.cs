@@ -33,7 +33,6 @@ namespace StockProject.API.Controllers
 
         //GET: api/Category/GetCategoryById
         [HttpGet("{id}")]
-
         public IActionResult GetCategoryById(int id)
         {
             return Ok(service.GetById(id));
@@ -46,10 +45,11 @@ namespace StockProject.API.Controllers
         {
             return Ok(service.GetDefault(x=>x.CategoryName.ToLower().Contains(name.ToLower())==true).ToList());
         }
-        [HttpPost]
+
 
         //POST: api/Category/CreateCategory
-        public IActionResult CreateCategory([FromQuery] Category category)
+        [HttpPost]
+        public IActionResult CreateCategory([FromBody] Category category)
         {
             service.Add(category);
 

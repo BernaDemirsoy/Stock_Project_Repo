@@ -53,7 +53,7 @@ namespace StockProject.API.Controllers
 
 
         //POST: api/Product/CreateProduct
-        public IActionResult CreateProduct([FromQuery] Product Product)
+        public IActionResult CreateProduct([FromBody] Product Product)
         {
             service.Add(Product);
 
