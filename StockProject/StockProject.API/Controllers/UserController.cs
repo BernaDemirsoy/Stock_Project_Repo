@@ -72,7 +72,7 @@ namespace StockProject.API.Controllers
         [HttpPost]
 
         //POST: api/User/CreateUser
-        public IActionResult CreateUser([FromQuery] User user)
+        public IActionResult CreateUser([FromBody] User user)
         {
             service.Add(user);
 

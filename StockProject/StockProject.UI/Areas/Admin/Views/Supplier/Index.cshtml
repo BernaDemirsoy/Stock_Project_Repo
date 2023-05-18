@@ -1,5 +1,5 @@
-﻿@using StockProject.Entities.Entities;
-@model IEnumerable<StockProject.Entities.Entities.Category>
+﻿
+@model  List<Supplier>
 
 @{
     ViewData["Title"] = "Index";
@@ -12,8 +12,8 @@
                             <div class="card">
                                 <div class="card-header">
                                     <div class="align-items-lg-end" >
-                                        <strong class="card-title">Kategori Listesi</strong>
-                                         <a class="btn btn-secondary ms-4" asp-controller="Category" asp-action="AddCategory">Kategori Ekle</a>
+                                        <strong class="card-title">Tedarikçi Listesi</strong>
+                                         <a class="btn btn-secondary ms-4" asp-controller="Supplier" asp-action="AddSupplier">Tedarikçi Ekle</a>
                                         
                                     </div>
                                 </div>
@@ -22,8 +22,8 @@
 
                                         <nav>
                                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                <a class="nav-item nav-link active" id="custom-nav-home-tab" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Tüm Kategoriler</a>
-                                                <a class="nav-item nav-link" id="custom-nav-profile-tab" data-toggle="tab" href="#custom-nav-profile" role="tab" aria-controls="custom-nav-profile" aria-selected="false">Aktif Kategoriler</a>
+                                                <a class="nav-item nav-link active" id="custom-nav-home-tab" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Tüm Tedarikçiler</a>
+                                                <a class="nav-item nav-link" id="custom-nav-profile-tab" data-toggle="tab" href="#custom-nav-profile" role="tab" aria-controls="custom-nav-profile" aria-selected="false">Aktif Tedarikçiler</a>
                                                
                                             </div>
                                         </nav>
@@ -40,8 +40,9 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Kategori Adı</th>
-                                            <th>Açıklama</th>
+                                            <th>Tedarikçi Adı</th>
+                                            <th>Telefon</th>
+                                            <th>E-posta Adresi</th>
                                             <th>İşlemler</th>
                                         </tr>
                                     </thead>
@@ -50,22 +51,23 @@
                                             @{
                                              int rowcountt = 1;
                                              }
-                                            @foreach (Category item in Model)
+                                            @foreach (Supplier item in Model)
                                             {
                                                 <tr>
                                                     <th scope="row">@rowcountt</th>
-                                                    <td>@item.CategoryName</td>
-                                                    <td>@item.Description</td>
+                                                    <td>@item.SupplierName</td>
+                                                    <td>@item.Phone</td>
+                                                    <td>@item.Email</td>
                                                     <td>
-                                                        <a asp-area="Admin" asp-controller="Category" asp-action="UpdateCategory" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Güncelle</a>
+                                                        <a asp-area="Admin" asp-controller="Supplier" asp-action="UpdateSupplier" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Güncelle</a>
                                                     @if (item.IsActive)
                                                     {
-                                                         <a asp-area="Admin" asp-controller="Category" asp-action="DeleteCategory" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
+                                                         <a asp-area="Admin" asp-controller="Supplier" asp-action="DeleteSupplier" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
                                                         
                                                     }
                                                     else
                                                     {
-                                                        <a asp-area="Admin" asp-controller="Category" asp-action="ActivetedCategory" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Aktifleştir</a>
+                                                        <a asp-area="Admin" asp-controller="Supplier" asp-action="ActivetedSupplier" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Aktifleştir</a>
                                                         
                                                     }
 
@@ -92,8 +94,9 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Kategori Adı</th>
-                                            <th>Açıklama</th>
+                                            <th>Tedarikçi Adı</th>
+                                            <th>Telefon</th>
+                                            <th>E-posta Adresi</th>
                                             <th>İşlemler</th>
                                         </tr>
                                     </thead>
@@ -102,18 +105,19 @@
                                             @{
                                              int rowcount2 = 1;
                                              }
-                                            @foreach (Category item in Model)
+                                            @foreach (Supplier item in Model)
                                             {
                                                 if (item.IsActive)
                                                 {
                                                     <tr>
-                                                        <th scope="row">@rowcount2</th>
-                                                        <td>@item.CategoryName</td>
-                                                        <td>@item.Description</td>
+                                                     <th scope="row">@rowcount2</th>
+                                                    <td>@item.SupplierName</td>
+                                                    <td>@item.Phone</td>
+                                                    <td>@item.Email</td>
                                                         <td>
-                                                            <a asp-area="Admin" asp-controller="Category" asp-          action="UpdateCategory" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Güncelle</a>
+                                                            <a asp-area="Admin" asp-controller="Supplier" asp-          action="UpdateSupplier" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Güncelle</a>
 
-                                                        <a asp-area="Admin" asp-controller="Category" asp-action="DeleteCategory" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
+                                                        <a asp-area="Admin" asp-controller="Supplier" asp-action="DeleteSupplier" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
                                                         </td>
                                                     
                                                     </tr>

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StockProject.Entities.Entities;
+using System.Security.Policy;
 using System.Text;
 
 namespace StockProject.UI.Areas.Admin.Controllers
@@ -45,6 +46,72 @@ namespace StockProject.UI.Areas.Admin.Controllers
                     
                 }
 
+            }
+            return RedirectToAction("Index");
+        }
+        static Category updatedcategory;
+        [HttpGet]
+        public async Task<IActionResult> UpdateCategory(int id)
+        {
+           
+
+            using (var httpClient = new HttpClient())
+            {
+                using (var cevap = await httpClient.GetAsync($"{baseURL}/api/Category/GetCategoryById/{id}"))
+                {
+                    string apiCevap = await cevap.Content.ReadAsStringAsync();
+                    updatedcategory = JsonConvert.DeserializeObject<Category>(apiCevap);
+                }
+            }
+
+
+
+            return View(updatedcategory);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateCategory(Category category)
+        {
+            
+            using (var httpClient = new HttpClient())
+            {
+                category.IsActive = updatedcategory.IsActive;
+                category.AddedDate = updatedcategory.AddedDate;
+
+                StringContent content = new StringContent(JsonConvert.SerializeObject(category), Encoding.UTF8, "application/json");
+
+                using (var cevap = await httpClient.PutAsync($"{baseURL}/api/Category/UpdateCategory/{category.Id}", content))
+                {
+                    string apiCevap = await cevap.Content.ReadAsStringAsync();
+                }
+            }
+            return RedirectToAction("Index");
+        }
+        
+
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+           
+                using (var httpClient = new HttpClient())
+                {
+                    using (var cevap = await httpClient.DeleteAsync($"{baseURL}/api/Category/DeleteCategory/{id}"))
+                    {
+                        //string apiCevap = await cevap.Content.ReadAsStringAsync();
+                    }
+                 }
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ActivetedCategory(int id)
+        {
+
+            using (var httpClient = new HttpClient())
+            {
+                using (var cevap = await httpClient.GetAsync($"{baseURL}/api/Category/AvtivateCategory/{id}"))
+                {
+                    //string apiCevap = await cevap.Content.ReadAsStringAsync();
+                }
             }
             return RedirectToAction("Index");
         }

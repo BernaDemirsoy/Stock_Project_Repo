@@ -49,7 +49,7 @@ namespace StockProject.API.Controllers
         [HttpPost]
 
         //POST: api/Supplier/CreateSupplier
-        public IActionResult CreateSupplier([FromQuery] Supplier supplier)
+        public IActionResult CreateSupplier([FromBody] Supplier supplier)
         {
             service.Add(supplier);
 

@@ -9,73 +9,73 @@ namespace StockProject.UI.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles ="Admin")]
-    public class ProductController : Controller
+    public class OrderController : Controller
     {
         string baseURL = "https://localhost:7270";
 
         public async Task< IActionResult> Index()
         {
-            List<Product> products = new List<Product>();
+            List<Order> orders = new List<Order>();
             using (var httpClient = new HttpClient())
             {
-                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Product/GetAllProduct"))
+                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Order/GetAllOrder"))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
-                    products = JsonConvert.DeserializeObject<List<Product>>(apiResult);
+                    orders = JsonConvert.DeserializeObject<List<Order>>(apiResult);
                 }
 
             }
-            return View(products);
+            return View(orders);
 
         }
 
         
-        public async Task<IActionResult> AddProduct()
+        public async Task<IActionResult> AddOrder()
         {
-            List<Category> _categories = new List<Category>();
+            List<OrderDetail> _orderdetails = new List<OrderDetail>();
             using (var httpClient = new HttpClient())
             {
-                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Category/GetAllActive"))
+                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Order/GetAllActive"))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
-                    _categories = JsonConvert.DeserializeObject<List<Category>>(apiResult);
+                    _orderdetails = JsonConvert.DeserializeObject<List<OrderDetail>>(apiResult);
                 }
 
             }
-            List<StockProject.Entities.Entities.Supplier> _supplier = new List<StockProject.Entities.Entities.Supplier>();
+            List<User> _user = new List<User>();
             using (var httpClient = new HttpClient())
             {
                 using (var answ = await httpClient.GetAsync($"{baseURL}/api/Supplier/GetAllActive"))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
-                    _supplier = JsonConvert.DeserializeObject<List<StockProject.Entities.Entities.Supplier>>(apiResult);
+                    _user = JsonConvert.DeserializeObject<List<User>>(apiResult);
                 }
 
             }
-            AddProductDTO productDTO = new AddProductDTO()
+            AddOrderDTO oderDTO = new AddOrderDTO()
             {
-                categories = _categories,
+                categories = _orderdetails,
                 suppliers = _supplier
             };
             return View(productDTO);
         }
         [HttpPost]
-        public async Task<IActionResult> AddProduct(AddProductDTO productDto)
+        public async Task<IActionResult> AddOrder(AddOrderDTO productDto)
         {
-            Product product = new Product()
+            Order product = new Order()
             {
-                CategoryId = productDto.CategoryId,
+                OrderId = productDto.OrderId,
                 SupplierId = productDto.SupplierId,
                 UnitPrice = productDto.product.UnitPrice,
                 Stock = productDto.product.Stock,
                 ExpireDate = productDto.product.ExpireDate,
-                ProductName = productDto.product.ProductName,
+                OrderName = productDto.product.OrderName,
                 IsActive = true,
             };
             using (var httpClient = new HttpClient())
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(product),Encoding.UTF8,"application/json");
-                using (var answ = await httpClient.PostAsync($"{baseURL}/api/Product/CreateProduct",content))
+                using (var answ = await httpClient.PostAsync($"{baseURL}/api/Order/CreateOrder",content))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
                     
@@ -84,25 +84,25 @@ namespace StockProject.UI.Areas.Admin.Controllers
             }
             return RedirectToAction("Index");
         }
-        static Product _productt;
-        static List<Category> _categoriess;
+        static Order _productt;
+        static List<Order> _orderdetailss;
         static List<StockProject.Entities.Entities.Supplier> _supplierr;
 
-        public async Task<IActionResult> UpdateProduct(int id)
+        public async Task<IActionResult> UpdateOrder(int id)
         {
           
           
             using (var httpClient = new HttpClient())
             {
-                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Product/GetProductById/{id}"))
+                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Order/GetOrderById/{id}"))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
-                    _productt = JsonConvert.DeserializeObject<Product[]>(apiResult)[0];
+                    _productt = JsonConvert.DeserializeObject<Order[]>(apiResult)[0];
                 }
-                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Category/GetAllActive"))
+                using (var answ = await httpClient.GetAsync($"{baseURL}/api/Order/GetAllActive"))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
-                    _categoriess = JsonConvert.DeserializeObject<List<Category>>(apiResult);
+                    _orderdetailss = JsonConvert.DeserializeObject<List<Order>>(apiResult);
                 }
                 using (var answ = await httpClient.GetAsync($"{baseURL}/api/Supplier/GetAllActive"))
                 {
@@ -113,33 +113,33 @@ namespace StockProject.UI.Areas.Admin.Controllers
             }
             
            
-            UpdateProductDTO productDTO = new UpdateProductDTO()
+            UpdateOrderDTO productDTO = new UpdateOrderDTO()
             {
-                ProductId= _productt.Id,
+                OrderId= _productt.Id,
                 product= _productt,
-                categories = _categoriess,
+                categories = _orderdetailss,
                 suppliers = _supplierr
             };
 
             return View(productDTO);
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateProduct(UpdateProductDTO updateProductDTO)
+        public async Task<IActionResult> UpdateOrder(UpdateOrderDTO updateOrderDTO)
         {
-            Product product = new Product()
+            Order product = new Order()
             {
-                CategoryId = updateProductDTO.CategoryId,
-                SupplierId = updateProductDTO.SupplierId,
-                UnitPrice = updateProductDTO.product.UnitPrice,
-                Stock = updateProductDTO.product.Stock,
-                ExpireDate = updateProductDTO.product.ExpireDate,
-                ProductName = updateProductDTO.product.ProductName,
-                IsActive = updateProductDTO.product.IsActive,
+                OrderId = updateOrderDTO.OrderId,
+                SupplierId = updateOrderDTO.SupplierId,
+                UnitPrice = updateOrderDTO.product.UnitPrice,
+                Stock = updateOrderDTO.product.Stock,
+                ExpireDate = updateOrderDTO.product.ExpireDate,
+                OrderName = updateOrderDTO.product.OrderName,
+                IsActive = updateOrderDTO.product.IsActive,
             };
             using (var httpClient = new HttpClient())
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(product), Encoding.UTF8, "application/json");
-                using (var answ = await httpClient.PostAsync($"{baseURL}/api/Product/UpdateProduct", content))
+                using (var answ = await httpClient.PostAsync($"{baseURL}/api/Order/UpdateOrder", content))
                 {
                     string apiResult = await answ.Content.ReadAsStringAsync();
 
@@ -149,12 +149,12 @@ namespace StockProject.UI.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> DeleteCategory(int id)
+        public async Task<IActionResult> DeleteOrder(int id)
         {
 
             using (var httpClient = new HttpClient())
             {
-                using (var cevap = await httpClient.DeleteAsync($"{baseURL}/api/Product/DeleteProduct/{id}"))
+                using (var cevap = await httpClient.DeleteAsync($"{baseURL}/api/Order/DeleteOrder/{id}"))
                 {
                     //string apiCevap = await cevap.Content.ReadAsStringAsync();
                 }
