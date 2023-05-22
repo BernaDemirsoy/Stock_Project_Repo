@@ -21,17 +21,18 @@
                                     <div class="custom-tab">
 
                                         <nav>
+
                                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                                 <a class="nav-item nav-link active" id="custom-nav-pending-orders" data-toggle="tab" href="#custom-nav-pending" role="tab" aria-controls="custom-nav-pending" aria-selected="true">Bekleyen Siparişler</a>
-                                                <a class="nav-item nav-link" id="custom-nav-confirmed-orders" data-toggle="tab" href="#custom-nav-confirmed-orders" role="tab" aria-controls="custom-nav-confirmed" aria-selected="false">Onaylanan Siparişler</a>
-                                               <a class="nav-item nav-link" id="custom-nav-cancelled-orders" data-toggle="tab" href="#custom-nav-cancelled-orders" role="tab" aria-controls="custom-nav-cancelled" aria-selected="false">Reddedilen Siparişler</a>
+                                                <a class="nav-item nav-link" id="custom-nav-confirmed-orders" data-toggle="tab" href="#custom-nav-confirmed" role="tab" aria-controls="custom-nav-confirmed" aria-selected="false">Onaylanan Siparişler</a>
+                                               <a class="nav-item nav-link" id="custom-nav-cancelled-orders" data-toggle="tab" href="#custom-nav-cancelled" role="tab" aria-controls="custom-nav-cancelled" aria-selected="false">Reddedilen Siparişler</a>
                                             </div>
+
                                         </nav>
                            <div class="tab-content pl-3 pt-2" id="nav-tabContent">
                                  <div class="tab-pane fade show active" id="custom-nav-pending" role="tabpanel" aria-labelledby="custom-nav-pending-orders">
                                         <div class="card">
-                                             <div class="card-header"> </div>
-                                
+                                             <div class="card-header"></div>
                                         
                                     <div class="card-body">
                                         <table id="bootstrap-data-table" class="table table-striped table-bordered">
@@ -92,7 +93,7 @@
                                 </div>
                                 </div>
 
-                                <div class="tab-pane fade show active" id="custom-nav-confirmed" role="tabpanel" aria-labelledby="custom-nav-confirmed-orders">
+                                <div class="tab-pane fade show" id="custom-nav-confirmed" role="tabpanel" aria-labelledby="custom-nav-confirmed-orders">
                                         <div class="card">
                                              <div class="card-header"> </div>
                                 
@@ -155,7 +156,7 @@
                                 </div>
                                 </div>
 
-                                <div class="tab-pane fade show active" id="custom-nav-cancelled" role="tabpanel" aria-labelledby="custom-nav-cancelled-orders">
+                                <div class="tab-pane fade show" id="custom-nav-cancelled" role="tabpanel" aria-labelledby="custom-nav-cancelled-orders">
                                         <div class="card">
                                              <div class="card-header"> </div>
                                 
@@ -182,7 +183,7 @@
                                                     if (item.Status == Status.Canceled)
                                                     {
                                                         <tr>
-                                                            <th scope="row">@rowcountt</th>
+                                                            <th scope="row">@rowcount3</th>
                                                             <td>@item.AddedDate</td>
                                                             <td>@item.User.FirstName @item.User.LastName</td>
                                                             <td>

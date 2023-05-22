@@ -1,0 +1,61 @@
+﻿@using System.Security.Claims;
+
+@model OrderDetailDTO
+@{
+    ViewData["Title"] = "DetailOrder";
+    Layout = "~/Areas/Admin/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+     <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">Sipariş Detayı</strong>
+                            </div>
+                            <div class="table-stats order-table ov-h">
+                                <table class="table ">
+                                    <thead>
+                                        <tr>
+                                           
+                                            <th class="avatar"><div class="round-img">
+                                                       <img class="rounded-circle" src="@Model.Order.User.PhotoUrl">
+                                                    </div></th>
+                                            <th>Ürün Adı</th>
+                                            <th>Ürün Fiyatı</th>
+                                            <th>Miktarı</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                                @{
+                                                    decimal toplamtutar = 0;
+
+                                                }
+                                                @foreach (OrderDetail item in Model.OrderDetails)
+                                                {
+                                                   
+                                                    <tr>
+                                                 <td></td>
+                                                     <td class="product">@item.Product.ProductName</td>
+                                                     <td class="product">@item.Product.UnitPrice ₺ </td>
+                                                     <td class="product">@item.Quantity</td>
+                                                     </tr>
+                                                     toplamtutar += @item.Product.UnitPrice * item.Quantity;
+
+                                                }
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>
+                                                       Toplam Tutar: @toplamtutar ₺
+                                                    </td>
+                                                </tr>
+                                       
+                                        
+                                    </tbody>
+                                </table>
+                            </div> <!-- /.table-stats -->
+                        </div>
+      </div>
+</div>
