@@ -1,29 +1,38 @@
-﻿
+﻿@model StockProject.Entities.Entities.User
+
 @{
-    ViewData["Title"] = "UpdateUser";
+    ViewData["Title"] = "AddUser";
     Layout = "~/Areas/Admin/Shared/_Layout.cshtml";
 }
-
-@model StockProject.Entities.Entities.User
-
 <div class="col-lg-6 offset-3">
                         <div class="card">
                             <div class="card-header">
-                                <strong class="card-title">Kullanıcı Güncelle</strong>
+                                <strong class="card-title">Kullanıcı</strong>
                             </div>
                             <div class="card-body">
+            @if (ViewBag.PhotoMessage != null)
+            {
+                <div class="sufee-alert alert with-close alert-danger alert-dismissible fade show">
+                                        <span class="badge badge-pill badge-danger">Hata</span>
+
+                                        @ViewBag.PhotoMessage
+                                        You successfully read this important alert.
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+            }
+            
                                 <!-- Credit Card -->
                                 <div id="pay-invoice">
                                     <div class="card-body">
                                         <div class="card-title">
-                                            <h3 class="text-center">Kullanıcı</h3>
+                                            <h3 class="text-center">Kullanıcı Güncelle</h3>
                                         </div>
                                         <hr>
-                                        <input type="hidden" asp-for="Id"/>
-                                        <form asp-action="UpdateUser" method="post" novalidate="novalidate">
+                                        <form asp-action="UpdateUser" method="post" enctype="multipart/form-data" novalidate="novalidate">
                                            
                                             <div class="form-group">
-
                                                 <label asp-for="FirstName"  class="control-label mb-1">Kullanıcı Adı</label>
                                                 <input asp-for="FirstName"  type="text" class="form-control" aria-required="true" aria-invalid="false" >
                                             </div>
@@ -35,7 +44,6 @@
                                             </div>
                                             <div class="form-group has-success">
                                                 <label  asp-for="Email"  class="control-label mb-1">E-mail</label>
-
                                                 <input  asp-for="Email" type="email" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name">
                                                
                                             </div>
@@ -47,19 +55,26 @@
                                             </div>
                                             <div class="form-group has-success">
                                                 <label  asp-for="Address"  class="control-label mb-1">Adres</label>
-                                                <input  asp-for="Address" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name">
-                                            </div>
-                                             <div class="form-group has-success">
-                                                 <label asp-for="Role"></label>
-                                                <select asp-for="Role">
-                                                    <option value="">Kullanıcı İçin Bir Rol Seçiniz</option>
-                                                    @foreach (var value in ViewBag.EnumValues) 
-                                                    { 
-                                                        <option value="@((int)value)">@value</option> 
-                                                    } 
-                                                </select>
+                                                <textarea asp-for="Address" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name"></textarea>
                                             </div>
 
+                                    <div class="row">
+                                        <label asp-for="PhotoUrl" class="col col-md-3">Kullanıcı Fotoğrafı</label>
+                                        <div class="col-12 col-md-9"><input asp-for="PhotoUrl" type="file" name="files" class="form-control-file"></div>
+                                    </div>
+                                             <div class="form-group has-success">
+                                                 <label asp-for="Role"></label>
+                               
+                                                <select asp-for="Role">
+                                                        <option value="">Kullanıcı İçin Bir Rol Seçiniz</option>
+                                                        @foreach (var value in ViewBag.EnumValues) 
+                                                        { 
+                                                            <option value="@((int)value)">@value</option> 
+                                                        } 
+                                                 </select>
+                                
+                            
+                                            </div>
                                              <div class="form-group has-success">
                                                 <label  asp-for="Password"  class="control-label mb-1">Şifre</label>
                                                 <input  asp-for="Password" type="password" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card" autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="cc-name">
@@ -79,6 +94,5 @@
                         </div> <!-- .card -->
 
                     </div><!--/.col-->
-
 
 

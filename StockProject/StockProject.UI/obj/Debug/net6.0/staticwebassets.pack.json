@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\StockProject.UI.bundle.scp.css"
     },
     {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\Uploads\\cff348d5_ba80_44dd_90f3_7680d470f436.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\cff348d5_ba80_44dd_90f3_7680d470f436.jpeg"
+    },
+    {
+      "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\Uploads\\ef2fefcf_0dbb_4239_8b28_7f87983acf87.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\ef2fefcf_0dbb_4239_8b28_7f87983acf87.jpeg"
+    },
+    {
       "Id": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\css\\General\\css\\cs-skin-elastic.css",
       "PackagePath": "staticwebassets\\css\\General\\css\\cs-skin-elastic.css"
     },

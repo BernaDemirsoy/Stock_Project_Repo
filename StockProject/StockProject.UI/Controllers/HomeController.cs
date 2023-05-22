@@ -82,7 +82,7 @@ namespace StockProject.UI.Controllers
         public async Task<IActionResult> LogOut()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Index", "Home", new {Area=""});
+            return RedirectToAction("LogIn", "Home", new {Area=""});
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

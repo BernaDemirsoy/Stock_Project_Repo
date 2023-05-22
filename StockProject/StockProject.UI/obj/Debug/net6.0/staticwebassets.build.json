@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Zi6O37ytewZyiGH2qKi1WDGNIIGXseRW2kYWMPK0zo=",
+  "Hash": "iGB9GiMqlzJdRmoN0Sg4PcitCmrSoAqRjaaAFsZyrGQ=",
   "Source": "StockProject.UI",
   "BasePath": "_content/StockProject.UI",
   "Mode": "Default",
@@ -2174,6 +2174,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
+    },
+    {
+      "Identity": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\Uploads\\cff348d5_ba80_44dd_90f3_7680d470f436.jpeg",
+      "SourceId": "StockProject.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\",
+      "BasePath": "_content/StockProject.UI",
+      "RelativePath": "Uploads/cff348d5_ba80_44dd_90f3_7680d470f436.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\cff348d5_ba80_44dd_90f3_7680d470f436.jpeg"
+    },
+    {
+      "Identity": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\Uploads\\ef2fefcf_0dbb_4239_8b28_7f87983acf87.jpeg",
+      "SourceId": "StockProject.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\BilgeAdam\\Kartal_Hoca_Tekrar\\Stock_Project_Repo\\StockProject\\StockProject.UI\\wwwroot\\",
+      "BasePath": "_content/StockProject.UI",
+      "RelativePath": "Uploads/ef2fefcf_0dbb_4239_8b28_7f87983acf87.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\ef2fefcf_0dbb_4239_8b28_7f87983acf87.jpeg"
     }
   ]
 }
