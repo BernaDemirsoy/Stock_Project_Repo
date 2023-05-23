@@ -70,7 +70,7 @@ namespace StockProject.API.Controllers
 
 
         }
-        //POST: api/Order/DeleteOrder
+        //POST: api/Order/CreateOrder
         [HttpPost]
         public IActionResult CreateOrder([FromQuery] int userId, [FromQuery] int[] productIds, [FromQuery] short[] quantites)
         {

@@ -72,7 +72,7 @@ namespace StockProject.UI.Controllers
                 case Entities.Enums.UserRole.Supplier:             
                     return RedirectToAction("Index", "Home", new { Area = "Supplier" });
                 case Entities.Enums.UserRole.User:                 
-                    return RedirectToAction("Index", "Home", new { Area = "User" });
+                    return RedirectToAction("Index", "Home", new { Area = "UserArea" });
                 default:
                     return View(loginVM);
             }

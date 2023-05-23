@@ -540,3 +540,4 @@ D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\obj\Debug\net6.0\StockProject.UI.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\BilgeAdam\Kartal_Hoca_Tekrar\Stock_Project_Repo\StockProject\StockProject.UI\obj\Debug\net6.0\scopedcss\Areas\UserArea\Shared\_Layout.cshtml.rz.scp.css
